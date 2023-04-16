@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Akira Tenchi <jimjan2002@gmail.com>, 2019
 # Ansgar Hofmann <ansgar@trollgames.de>, 2016
@@ -50,7 +50,7 @@ msgstr ""
 #: analytics/views/stats.py:110 zerver/decorator.py:623
 #: zerver/decorator.py:641
 msgid "Not allowed for guest users"
-msgstr "Nicht zugänglich für Gastnutzer"
+msgstr "Nicht zugänglich für Gastnutzer:innen"
 
 #: analytics/views/stats.py:153
 msgid "Invalid organization"
@@ -66,11 +66,11 @@ msgstr "Private Streams"
 
 #: analytics/views/stats.py:296
 msgid "Direct messages"
-msgstr ""
+msgstr "Direkte Nachrichten"
 
 #: analytics/views/stats.py:297
 msgid "Group direct messages"
-msgstr ""
+msgstr "Gruppen-Nachrichten"
 
 #: analytics/views/stats.py:318
 msgid "Unknown chart name: {}"
@@ -97,7 +97,7 @@ msgid ""
 "new users. Please [increase the number of licenses]({billing_page_link}) or "
 "[deactivate inactive users]({deactivate_user_help_page_link}) to allow new "
 "users to join."
-msgstr "Deine Organisation hat keine Zulip-Lizenzen übrig und kann keine weiteren Nutzer akzeptieren. Bitte [erhöhe die Anzahl der Lizenzen]({billing_page_link}) oder [deaktiviere inaktive Nutzer]({deactivate_user_help_page_link}), damit neue Nutzer beitreten können."
+msgstr "Deine Organisation hat keine Zulip-Lizenzen übrig und kann keine weiteren Nutzer:innen akzeptieren. Bitte [erhöhe die Anzahl der Lizenzen]({billing_page_link}) oder [deaktiviere inaktive Nutzer:innen]({deactivate_user_help_page_link}), damit neue Nutzer:innen beitreten können."
 
 #: corporate/lib/registration.py:36
 #, python-brace-format
@@ -106,7 +106,7 @@ msgid ""
 "the number of licenses]({billing_page_link}) or [deactivate inactive "
 "users]({deactivate_user_help_page_link}) to allow more than one user to "
 "join."
-msgstr "Deine Organisation hat nur noch eine Zulip-Lizenz übrig. Du kannst [die Anzahl der Zulip-Lizenzen erhöhen]({billing_page_link}) oder [inaktive Nutzer deaktivieren]({deactivate_user_help_page_link}), damit mehr als nur noch ein Nutzer beitreten kann."
+msgstr "Deine Organisation hat nur noch eine Zulip-Lizenz übrig. Du kannst [die Anzahl der Zulip-Lizenzen erhöhen]({billing_page_link}) oder [inaktive Nutzer deaktivieren]({deactivate_user_help_page_link}), damit mehr als nur noch eine Nutzer:in beitreten kann."
 
 #: corporate/lib/registration.py:41
 #, python-brace-format
@@ -115,7 +115,7 @@ msgid ""
 "the number of licenses]({billing_page_link}) or [deactivate inactive "
 "users]({deactivate_user_help_page_link}) to allow more than two users to "
 "join."
-msgstr "Deine Organisation hat nur noch zwei Zulip-Lizenzen übrig. Your organization has only two Zulip licenses remaining. Du kannst [die Anzahl der Zulip-Lizenzen erhöhen]({billing_page_link}) oder [inaktive Nutzer deaktivieren]({deactivate_user_help_page_link}), damit mehr als nur noch zwei Nutzer beitreten können."
+msgstr "Deine Organisation hat nur noch zwei Zulip-Lizenzen übrig. Your organization has only two Zulip licenses remaining. Du kannst [die Anzahl der Zulip-Lizenzen erhöhen]({billing_page_link}) oder [inaktive Nutzer:innen deaktivieren]({deactivate_user_help_page_link}), damit mehr als nur noch zwei Nutzer:innen beitreten können."
 
 #: corporate/lib/registration.py:46
 #, python-brace-format
@@ -124,7 +124,7 @@ msgid ""
 " the number of licenses]({billing_page_link}) or [deactivate inactive "
 "users]({deactivate_user_help_page_link}) to allow more than three users to "
 "join."
-msgstr "Deine Organisation hat nur noch drei Zulip-Lizenzen übrig. Your organization has only two Zulip licenses remaining. Du kannst [die Anzahl der Zulip-Lizenzen erhöhen]({billing_page_link}) oder [inaktive Nutzer deaktivieren]({deactivate_user_help_page_link}), damit mehr als nur noch drei Nutzer beitreten können."
+msgstr "Deine Organisation hat nur noch drei Zulip-Lizenzen übrig. Your organization has only two Zulip licenses remaining. Du kannst [die Anzahl der Zulip-Lizenzen erhöhen]({billing_page_link}) oder [inaktive Nutzer deaktivieren]({deactivate_user_help_page_link}), damit mehr als nur noch drei Nutzer:innen beitreten können."
 
 #: corporate/lib/registration.py:57
 #, python-brace-format
@@ -133,7 +133,7 @@ msgid ""
 "Zulip licenses are in use. Please [increase the number of "
 "licenses]({billing_page_link}) or [deactivate inactive "
 "users]({deactivate_user_help_page_link}) to allow new members to join."
-msgstr "Ein neues Mitglied ({email}) konnte deiner Organisation nicht beitreten, da alle Zulip-Lizenzen aufgebraucht sind. Bitte [erhöhe die Anzahl der Lizenzen]({billing_page_link}) oder [deaktiviere inaktive Nutzer]({deactivate_user_help_page_link}), damit neue Nutzer beitreten können."
+msgstr "Ein neues Mitglied ({email}) konnte deiner Organisation nicht beitreten, da alle Zulip-Lizenzen aufgebraucht sind. Bitte [erhöhe die Anzahl der Lizenzen]({billing_page_link}) oder [deaktiviere inaktive Nutzer:innen]({deactivate_user_help_page_link}), damit neue Nutzer:innen beitreten können."
 
 #: corporate/lib/registration.py:113
 msgid "All Zulip licenses for this organization are currently in use."
@@ -144,11 +144,11 @@ msgstr "Alle Zulip-Lizenzen für diese Organisation sind derzeit in Benutzung."
 msgid ""
 "Your organization does not have enough unused Zulip licenses to invite "
 "{num_invites} users."
-msgstr "Deine Organisation hat nicht genügend Zulip-Lizenzen, um noch {num_invites} Nutzer einzuladen."
+msgstr "Deine Organisation hat nicht genügend Zulip-Lizenzen, um noch {num_invites} Nutzer:innen einzuladen."
 
 #: corporate/lib/stripe.py:107
 msgid "You must invoice for at least {} users."
-msgstr "Du musst für mindestens {} Nutzer per Rechnung zahlen."
+msgstr "Du musst für mindestens {} Nutzer:innen per Rechnung zahlen."
 
 #: corporate/lib/stripe.py:112
 msgid ""
@@ -348,11 +348,11 @@ msgstr "Überblick über die Organisation"
 
 #: templates/analytics/stats.html:27
 msgid "Number of users"
-msgstr "Anzahl Nutzer"
+msgstr "Anzahl Nutzer:innen"
 
 #: templates/analytics/stats.html:28
 msgid "Users active during the last 15 days"
-msgstr "In den letzten 15 Tagen aktive Nutzer"
+msgstr "In den letzten 15 Tagen aktive Nutzer:innen"
 
 #: templates/analytics/stats.html:29
 msgid "Number of guests"
@@ -372,23 +372,23 @@ msgstr "Genutzter Dateispeicher"
 
 #: templates/analytics/stats.html:37
 msgid "Active users"
-msgstr "Aktive Nutzer"
+msgstr "Aktive Nutzer:innen"
 
 #: templates/analytics/stats.html:40
 msgid "Daily actives"
-msgstr "Täglich aktive Nutzer"
+msgstr "Täglich aktive Nutzer:innen"
 
 #: templates/analytics/stats.html:41
 msgid "15 day actives"
-msgstr "15-tägig aktive Nutzer"
+msgstr "15-tägig aktive Nutzer:innen"
 
 #: templates/analytics/stats.html:42
 msgid "Total users"
-msgstr "Gesamtzahl der aktiven Nutzer"
+msgstr "Gesamtzahl der aktiven Nutzer:innen"
 
 #: templates/analytics/stats.html:50
 msgid "Users"
-msgstr "Nutzer"
+msgstr "Nutzer:innen"
 
 #: templates/analytics/stats.html:58
 msgid "Messages sent by recipient type"
@@ -560,7 +560,7 @@ msgstr "Die Community der Zulip-Entwickler"
 #: templates/corporate/development-community.html:30
 #: templates/corporate/development-community.html:55
 msgid "Join as a user"
-msgstr "Als Nutzer beitreten"
+msgstr "Als Nutzer:in beitreten"
 
 #: templates/corporate/development-community.html:33
 #: templates/corporate/development-community.html:58
@@ -757,7 +757,7 @@ msgstr "Avatar"
 
 #: templates/corporate/try-zulip.html:36
 msgid "Try Zulip now"
-msgstr ""
+msgstr "Zulip ausprobieren"
 
 #: templates/corporate/upgrade.html:5
 msgid "Upgrade"
@@ -1092,7 +1092,7 @@ msgstr "Oder fahre in deinem Browser fort."
 
 #: templates/zerver/development/dev_login.html:26
 msgid "Anonymous user"
-msgstr "Anonymer Nutzer"
+msgstr "Anonyme Nutzer:in"
 
 #: templates/zerver/development/dev_login.html:32
 msgid "Owners"
@@ -1108,11 +1108,11 @@ msgstr "Moderatoren"
 
 #: templates/zerver/development/dev_login.html:71
 msgid "Guest users"
-msgstr "Gastnutzer"
+msgstr "Gastnutzer:innen"
 
 #: templates/zerver/development/dev_login.html:85
 msgid "Normal users"
-msgstr "Normale Nutzer"
+msgstr "Normale Nutzer:innen"
 
 #: templates/zerver/digest_base.html:5
 msgid "Digest"
@@ -1460,7 +1460,7 @@ msgstr "Hey,"
 msgid ""
 "I wanted to share one last thing with you: a few tips about topics, since "
 "mastering topics is a key part of being a Zulip power user."
-msgstr "Ich wollte noch eine letzte Sache mit dir teilen: Ein paar Tipps zu Themen, denn deren Beherrschung ist ein Schlüssel, um ein effizienter Zulip-Nutzer zu werden."
+msgstr "Ich wollte noch eine letzte Sache mit dir teilen: Ein paar Tipps zu Themen, denn deren Beherrschung ist ein Schlüssel, um ein effizienter Zulip-Nutzer:in zu werden."
 
 #: templates/zerver/emails/followup_day2.source.html:12
 msgid "Examples of short topics"
@@ -1695,12 +1695,12 @@ msgstr "\n    Antworte nicht auf diese E-Mail. Dieser Zulip-Server ist nicht daf
 #: templates/zerver/emails/missed_message.subject.txt:2
 #, python-format
 msgid "Group DMs with %(huddle_display_name)s"
-msgstr ""
+msgstr "Gruppen-Nachrichten mit %(huddle_display_name)s"
 
 #: templates/zerver/emails/missed_message.subject.txt:3
 #, python-format
 msgid "DMs with %(sender_str)s"
-msgstr ""
+msgstr "DNs mit %(sender_str)s"
 
 #: templates/zerver/emails/missed_message.subject.txt:12
 #, python-format
@@ -2266,7 +2266,7 @@ msgid ""
 "        only allows users with email addresses within the\n"
 "        organization. Please sign up using appropriate email address.\n"
 "        "
-msgstr "\n        Die Organisation %(realm_name)s, der du versuchst beizutreten,\n        erlaubt nur Nutzer mit E-Mail-Adressen innerhalb dieser Organisation.\n        Bitte registriere dich mit einer entsprechenden E-Mail-Adresse.\n        "
+msgstr "\n        Die Organisation %(realm_name)s, der du versuchst beizutreten,\n        erlaubt nur Nutzer:innen mit E-Mail-Adressen innerhalb dieser Organisation.\n        Bitte registriere dich mit einer entsprechenden E-Mail-Adresse.\n        "
 
 #: templates/zerver/invalid_email.html:34
 #, python-format
@@ -2375,7 +2375,7 @@ msgstr "Tarifgrenze überschritten"
 msgid ""
 "You have exceeded the limit for how\n"
 "                        often a user can perform this action."
-msgstr "Du hast die maximale Zahl dessen überschritten, wie\n                        oft ein Nutzer diese Aktion ausführen kann."
+msgstr "Du hast die maximale Zahl dessen überschritten, wie\n                        oft eine Nutzer:in diese Aktion ausführen kann."
 
 #: templates/zerver/rate_limit_exceeded.html:19
 #, python-format
@@ -2505,24 +2505,32 @@ msgid ""
 "Administrators of this Zulip organization will be able to see this email address.\n"
 "                                "
 msgstr ""
+"Administratoren dieser Zulip-Organisation können diese E-Mail-Adresse sehen.\n"
+"                                "
 
 #: templates/zerver/register.html:131
 msgid ""
 "Administrators and moderators of this Zulip organization will be able to see this email address.\n"
 "                                "
 msgstr ""
+"Administratoren und Moderatoren dieser Zulip-Organisation können diese E-Mail-Adresse sehen.\n"
+"                                "
 
 #: templates/zerver/register.html:134
 msgid ""
 "Nobody in this Zulip organization will be able to see this email address.\n"
 "                                "
 msgstr ""
+"Niemand in dieser Zulip-Organisation kann diese E-Mail-Adresse sehen.\n"
+"                                "
 
 #: templates/zerver/register.html:137
 msgid ""
 "Other users in this Zulip organization will be able to see this email address.\n"
 "                                "
 msgstr ""
+"Andere Benutzer in dieser Zulip-Organisation können diese E-Mail-Adresse sehen.\n"
+"                                "
 
 #: templates/zerver/register.html:141
 msgid "Change"
@@ -2568,7 +2576,7 @@ msgstr "Abonniere den selten erscheinenden Zulip-Newsletter (einige wenige E-Mai
 
 #: templates/zerver/register.html:307
 msgid "Configure email address privacy"
-msgstr ""
+msgstr "E-Mail-Privatsphäreneinstellungen"
 
 #: templates/zerver/register.html:309
 msgid "Close modal"
@@ -2579,12 +2587,16 @@ msgid ""
 "Zulip lets you control which roles in the organization can view your email "
 "address."
 msgstr ""
+"Zulip erlaubt es dir festzulegen, wer deine E-Mail "
+"sehen kann."
 
 #: templates/zerver/register.html:314
 msgid ""
 "Do you want to change the privacy setting for your email from the default "
 "configuration for this organization?"
 msgstr ""
+"Möchtest du die Einstellung für die E-Mail-Anzeige von dem Default "
+"tatsächlich wechseln?"
 
 #: templates/zerver/register.html:316
 msgid "Who can access your email address"
@@ -2597,6 +2609,9 @@ msgid ""
 "href=\"%(root_domain_uri)s/help/configure-email-visibility\" "
 "target=\"_blank\" rel=\"noopener noreferrer\">after you join</a>."
 msgstr ""
+"Du kannst diese Einstellung <a "
+"href=\"%(root_domain_uri)s/help/configure-email-visibility\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">auch später ändern</a>."
 
 #: templates/zerver/register.html:327
 msgid "Cancel"
@@ -2638,11 +2653,11 @@ msgstr "Entschuldige, der von dir angegebene Link ist ungültig oder wurde schon
 
 #: templates/zerver/reset_done.html:4
 msgid " New password successfully set"
-msgstr ""
+msgstr " Neues Passwort wurde erfolgreich gesetzt"
 
 #: templates/zerver/reset_done.html:13
 msgid "You've set a new password!"
-msgstr ""
+msgstr "Du hast ein neues Passwort"
 
 #: templates/zerver/reset_done.html:17
 #, python-format
@@ -2845,13 +2860,13 @@ msgstr "Standard-Streamgruppe '{}' existiert bereits"
 msgid ""
 "To protect users, Zulip limits the number of invitations you can send in one"
 " day. Because you have reached the limit, no invitations were sent."
-msgstr "Um Nutzer zu schützen, beschränkt Zulip die Anzahl der Einladungen, die du pro Tag versenden kannst. Da du dieses Limit bereits erreicht hast, wurden keine Einladungen versandt."
+msgstr "Um Nutzer:innen zu schützen, beschränkt Zulip die Anzahl der Einladungen, die du pro Tag versenden kannst. Da du dieses Limit bereits erreicht hast, wurden keine Einladungen versandt."
 
 #: zerver/actions/invites.py:224
 msgid ""
 "Your account is too new to send invites for this organization. Ask an "
 "organization admin, or a more experienced user."
-msgstr "Dein Account ist noch zu neu, um Einladungen für diese Organisation verschicken zu können. Frage einen Administrator der Organisation oder einen erfahreneren Nutzer."
+msgstr "Dein Account ist noch zu neu, um Einladungen für diese Organisation verschicken zu können. Frage einen Administrator der Organisation oder einen erfahrenere Nutzer:in."
 
 #: zerver/actions/invites.py:264
 msgid "Some emails did not validate, so we didn't send any invitations."
@@ -2873,11 +2888,11 @@ msgstr "Nichts zu ändern"
 
 #: zerver/actions/message_edit.py:89
 msgid "Direct messages cannot be moved to streams."
-msgstr ""
+msgstr "DNs können nicht zu Streams geschoben werden."
 
 #: zerver/actions/message_edit.py:91
 msgid "Direct messages cannot have topics."
-msgstr ""
+msgstr "DNs können keine Themen haben."
 
 #: zerver/actions/message_edit.py:94
 msgid "Invalid propagate_mode without topic edit"
@@ -3004,7 +3019,7 @@ msgstr "Ungültiger Datentyp für Empfänger"
 
 #: zerver/actions/message_send.py:1070 zerver/actions/message_send.py:1078
 msgid "Recipient lists may contain emails or user IDs, but not both."
-msgstr "Empfängerlisten können E-Mail-Adressen oder Nutzer-IDs enthalten, aber nicht beides."
+msgstr "Empfängerlisten können E-Mail-Adressen oder Nutzer:innen-IDs enthalten, aber nicht beides."
 
 #: zerver/actions/message_send.py:1189
 msgid "Reminders can only be set for streams."
@@ -3033,7 +3048,7 @@ msgstr "Dein Bot {bot_identity} hat versucht, eine Nachricht an den Stream {stre
 
 #: zerver/actions/message_send.py:1327
 msgid "Direct messages are disabled in this organization."
-msgstr ""
+msgstr "DNs sind deaktiviert."
 
 #: zerver/actions/message_send.py:1404
 msgid "Topics are required in this organization"
@@ -3119,7 +3134,7 @@ msgstr "Du kannst keine Unternachricht an diese Nachricht anhängen."
 
 #: zerver/actions/typing.py:55 zerver/lib/addressee.py:33
 msgid "Invalid user ID {}"
-msgstr "Ungültige Nutzer-ID {}"
+msgstr "Ungültige Nutzer:innen-ID {}"
 
 #: zerver/actions/user_groups.py:133 zerver/actions/user_groups.py:148
 msgid "User group '{}' already exists."
@@ -3343,7 +3358,7 @@ msgstr "Muss genau 1 Stream-ID für Stream-Nachrichten angeben"
 
 #: zerver/lib/drafts.py:103
 msgid "User has disabled synchronizing drafts."
-msgstr "Der Nutzer hat die Synchronisierung der Entwürfe deaktiviert."
+msgstr "Die Nutzer:in hat die Synchronisierung der Entwürfe deaktiviert."
 
 #: zerver/lib/drafts.py:146 zerver/lib/drafts.py:163
 msgid "Draft does not exist"
@@ -3438,7 +3453,7 @@ msgstr "Kann Ereigniskette nicht zuteilen"
 
 #: zerver/lib/exceptions.py:136
 msgid "Not logged in: API authentication or user session required"
-msgstr "Nicht angemeldet: API-Authentifizierung oder Nutzer-Session benötigt"
+msgstr "Nicht angemeldet: API-Authentifizierung oder Nutzer:innen-Session benötigt"
 
 #: zerver/lib/exceptions.py:161
 #, python-brace-format
@@ -3456,7 +3471,7 @@ msgstr "Eigentümer der Organisation"
 
 #: zerver/lib/exceptions.py:182
 msgid "user"
-msgstr "Nutzer"
+msgstr "Nutzer:in"
 
 #: zerver/lib/exceptions.py:186
 #, python-brace-format
@@ -3698,7 +3713,7 @@ msgstr "Bitte denke daran, dass dies eine [Demo-Organisation]({demo_org_help_url
 
 #: zerver/lib/onboarding.py:74
 msgid "This is a direct message from me, Welcome Bot."
-msgstr ""
+msgstr "Dies ist eine direkte Nachricht von mir, Welcome Bot."
 
 #: zerver/lib/onboarding.py:76
 #, python-brace-format
@@ -3762,6 +3777,9 @@ msgid ""
 "return to this conversation by clicking \"Direct messages\" in the upper "
 "left."
 msgstr ""
+"Schau dir [neuste Unterhaltungen](#recent) um zu sehen, was gerade abgeht! Du kannst "
+"zu diesen Chat zurückkehren, indem du auf \"Direkte Nachrichten\" oben links "
+"klickst."
 
 #: zerver/lib/onboarding.py:171
 msgid ""
@@ -3895,7 +3913,7 @@ msgstr "{full_name} hat alle erwähnt:"
 #: zerver/views/message_send.py:237 zerver/views/message_send.py:258
 #: zerver/views/users.py:686
 msgid "User not authorized for this query"
-msgstr "Nutzer nicht autorisiert für diese Anfrage"
+msgstr "Nutzer:in nicht autorisiert für diese Anfrage"
 
 #: zerver/lib/recipient_users.py:70
 #, python-brace-format
@@ -3904,7 +3922,7 @@ msgstr "'{email}' verwendet Zulip nicht mehr."
 
 #: zerver/lib/recipient_users.py:77
 msgid "You can't send direct messages outside of your organization."
-msgstr ""
+msgstr "Du kannst keine DNs außerhalb der Organisation versenden."
 
 #: zerver/lib/remote_server.py:93
 msgid "Push notifications bouncer error: {}"
@@ -4065,11 +4083,11 @@ msgstr "Die '{}'-Einstellung kann nicht der Gruppe '@role:owners' zugeordnet wer
 
 #: zerver/lib/user_topics.py:133
 msgid "Nothing to be done"
-msgstr ""
+msgstr "Nichts kann gemacht werden"
 
 #: zerver/lib/user_topics.py:164
 msgid "Topic already {}"
-msgstr ""
+msgstr "Thema ist bereits {}"
 
 #: zerver/lib/users.py:45
 msgid "Name too long!"
@@ -4122,7 +4140,7 @@ msgstr "Ungültiger Interface-Typ"
 
 #: zerver/lib/users.py:232 zerver/lib/users.py:237 zerver/models.py:4507
 msgid "Invalid user ID: {}"
-msgstr "Ungültige Nutzer-ID: {}"
+msgstr "Ungültige Nutzer:innen-ID: {}"
 
 #: zerver/lib/users.py:245 zerver/lib/users.py:247
 msgid "No such bot"
@@ -4131,11 +4149,11 @@ msgstr "Bot nicht vorhanden"
 #: zerver/lib/users.py:271 zerver/lib/users.py:298 zerver/lib/users.py:314
 #: zerver/views/presence.py:44
 msgid "No such user"
-msgstr "Nutzer nicht vorhanden"
+msgstr "Nutzer:in nicht vorhanden"
 
 #: zerver/lib/users.py:273
 msgid "User is deactivated"
-msgstr "Nutzer ist deaktiviert"
+msgstr "Nutzer:in ist deaktiviert"
 
 #: zerver/lib/validator.py:75 zerver/lib/validator.py:148
 #, python-brace-format
@@ -4312,27 +4330,27 @@ msgstr "Auf Zulip Cloud Standard verfügbar. Upgraden, um darauf zuzugreifen."
 
 #: zerver/models.py:656
 msgid "GIPHY integration disabled"
-msgstr ""
+msgstr "GIPHY ist deaktiviert"
 
 #: zerver/models.py:661
 msgid "Allow GIFs rated Y (Very young audience)"
-msgstr ""
+msgstr "GIFs, die mit Y bewertet sind, erlauben (sehr junge Audienz)"
 
 #: zerver/models.py:665
 msgid "Allow GIFs rated G (General audience)"
-msgstr ""
+msgstr "GIFs, die mit G bewertet sind, erlauben (allgemeine Audienz)"
 
 #: zerver/models.py:669
 msgid "Allow GIFs rated PG (Parental guidance)"
-msgstr ""
+msgstr "GIFs, die mit PG bewertet sind, erlauben (mit Erlaubnis der Eltern)"
 
 #: zerver/models.py:673
 msgid "Allow GIFs rated PG-13 (Parental guidance - under 13)"
-msgstr ""
+msgstr "GIFs, die mit PG-13 bewertet sind, erlauben (Mit Erlaubnis der Eltern - unter 13)"
 
 #: zerver/models.py:677
 msgid "Allow GIFs rated R (Restricted)"
-msgstr ""
+msgstr "GIFs, die mit R bewertet sind, erlauben"
 
 #: zerver/models.py:1099
 msgid "Invalid characters in emoji name"
@@ -4456,11 +4474,11 @@ msgstr "Zulip Extra-Emoji"
 
 #: zerver/models.py:4510
 msgid "User with ID {} is deactivated"
-msgstr "Nutzer mit ID {} ist deaktiviert"
+msgstr "Nutzer:in mit ID {} ist deaktiviert"
 
 #: zerver/models.py:4513
 msgid "User with ID {} is a bot"
-msgstr "Nutzer mit ID {} ist ein Bot"
+msgstr "Nutzer:in mit ID {} ist ein Bot"
 
 #: zerver/models.py:4553
 msgid "List of options"
@@ -4671,7 +4689,7 @@ msgstr "Fehlender Absender"
 
 #: zerver/views/message_send.py:263
 msgid "Mirroring not allowed with recipient user IDs"
-msgstr "Mirroring ist nicht erlaubt mit Empfänger-Nutzer-IDs"
+msgstr "Mirroring ist nicht erlaubt mit Empfänger-Nutzer:innen-IDs"
 
 #: zerver/views/message_send.py:275 zerver/views/message_send.py:282
 msgid "Invalid mirrored message"
@@ -4691,11 +4709,11 @@ msgstr "Kann sich nicht selbst stummstellen."
 
 #: zerver/views/muted_users.py:26
 msgid "User already muted"
-msgstr "Nutzer ist schon stummgeschaltet."
+msgstr "Nutzer:in ist schon stummgeschaltet."
 
 #: zerver/views/muted_users.py:40
 msgid "User is not muted"
-msgstr "Nutzer ist nicht stummgestellt."
+msgstr "Nutzer:in ist nicht stummgestellt."
 
 #: zerver/views/presence.py:47
 msgid "Presence is not supported for bot users."
@@ -4825,7 +4843,7 @@ msgstr "Ungültige Spielwiese"
 #: zerver/views/streams.py:121
 #, python-brace-format
 msgid "User not authorized to execute queries on behalf of '{principal}'"
-msgstr "Nutzer nicht authorisiert, Queries im Namen von '{principal}' auszuführen"
+msgstr "Nutzer:in nicht authorisiert, Queries im Namen von '{principal}' auszuführen"
 
 #: zerver/views/streams.py:163
 msgid "Private streams cannot be made default."
@@ -4869,7 +4887,7 @@ msgstr "Kann auf Stream ({stream_name}) nicht zugreifen."
 
 #: zerver/views/streams.py:639
 msgid "You can only invite other Zephyr mirroring users to private streams."
-msgstr "Du kannst andere Zephyr-Mirroring-Nutzer nur zu privater Streams einladen."
+msgstr "Du kannst andere Zephyr-Mirroring-Nutzer:innen nur zu privater Streams einladen."
 
 #: zerver/views/streams.py:756
 #, python-brace-format
@@ -4912,11 +4930,11 @@ msgstr "Kein Eintrag für 'to'-Empfänger"
 
 #: zerver/views/typing.py:42
 msgid "User has disabled typing notifications for stream messages"
-msgstr "Der Nutzer hat die Schreibbenachrichtigungen für Stream-Nachrichten abgestellt."
+msgstr "Die Nutzer:in hat die Schreibbenachrichtigungen für Stream-Nachrichten abgestellt."
 
 #: zerver/views/typing.py:52
 msgid "User has disabled typing notifications for direct messages"
-msgstr ""
+msgstr "Benutzer:in hat die Tippen-Benachrichtigung ausgestellt"
 
 #: zerver/views/upload.py:202
 msgid "<p>File not found.</p>"
@@ -4946,11 +4964,11 @@ msgstr "Keine neuen Daten übergeben"
 #: zerver/views/user_groups.py:131
 #, python-brace-format
 msgid "User {user_id} is already a member of this group"
-msgstr "Nutzer {user_id} ist bereits ein Mitglied dieser Gruppe"
+msgstr "Nutzer:in {user_id} ist bereits ein Mitglied dieser Gruppe"
 
 #: zerver/views/user_groups.py:152
 msgid "There is no member '{}' in this user group"
-msgstr "Es gibt keinen Nutzer '{}' in dieser Nutzergruppe"
+msgstr "Es gibt keine Nutzer:in '{}' in dieser Nutzergruppe"
 
 #: zerver/views/user_groups.py:171
 #, python-brace-format
@@ -5017,11 +5035,11 @@ msgstr "Die Eigentümerberechtigung kann nicht vom einzigen Eigentümer der Orga
 
 #: zerver/views/users.py:379
 msgid "Failed to change owner, no such user"
-msgstr "Änderung des Besitzers fehlgeschlagen, Nutzer existiert nicht"
+msgstr "Änderung des Besitzers fehlgeschlagen, Nutzer:in existiert nicht"
 
 #: zerver/views/users.py:381
 msgid "Failed to change owner, user is deactivated"
-msgstr "Änderung des Besitzers fehlgeschlagen, Nutzer ist deaktiviert"
+msgstr "Änderung des Besitzers fehlgeschlagen, Nutzer:in ist deaktiviert"
 
 #: zerver/views/users.py:383
 msgid "Failed to change owner, bots can't own other bots"

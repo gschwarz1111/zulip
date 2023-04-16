@@ -134,3 +134,100 @@ select.bootstrap-focus-style {
         outline-offset: -2px;
     }
 }
+
+/* WB */
+:root {
+	--technovation-energetic-blue: #0076cf;
+	--technovation-bright-blue: #5bc2e7;
+	--technovation-magenta: #d0006f;
+	--technovation-green: #43b02a;
+	--technovation-gold: #ffb81c;
+  --technovation-orange: #ff7500;
+	--technovation-dark-blue: #041e42;
+	--color-gray: #fff !important;
+	--color-gray-dark: #fff !important;
+	--color-gray-light: #fff !important;
+	--color-off-white: transparent !important;
+	--user-list-bg: var(--technovation-magenta) !important;
+	--list-item-bg-hover: transparent !important;
+	--systemMessage-border-color: var(--technovation-energetic-blue) !important;
+	--systemMessage-background-color: #0076cf21 !important;
+	--toolbar-button-bg: #ff7500 !important;
+	--toolbar-list-bg: #ff7500 !important;
+	--background: #ff7500 !important;
+	--color-primary: #0076cf !important;
+	--dropdown-bg: #0076cf !important;
+}
+
+/*.recent_topics_container #recent_topics_table tr[data-unread-count="0"] *,*/
+.recent_topics_container #recent_topics_table tr:not([data-unread-count="0"]) *,
+.message-header-contents > span {
+  color: #fff !important;
+}
+
+.recent_topics_container #recent_topics_table thead tr:not([data-unread-count="0"]) * {
+  color: var(--technovation-energetic-blue) !important;
+}
+
+a,
+.recent_topics_container #recent_topics_table a,
+.recent_topics_container #recent_topics_table tr[data-unread-count="0"]:hover *,
+.recent_topics_container #recent_topics_table tr:not([data-unread-count="0"]):hover * {
+  color: var(--technovation-energetic-blue) !important;
+}
+
+.recent_topics_container #recent_topics_table tr:not([data-unread-count="0"]),
+.message-header-contents {
+  background-color: var(--technovation-energetic-blue) !important;
+}
+
+.recent_topics_container #recent_topics_table tr:hover {
+    background-color: #eff7ff !important;
+}
+
+.message_header_stream a.message_label_clickable {
+    color: inherit !important;
+}
+
+.message_header_stream a.message_label_clickable {
+    font-weight: 400;
+}
+
+.hotspot-icon .dot {
+  border: 2px solid var(--technovation-green) !important;
+  background-color: rgb(67 176 42 / 30%) !important;
+}
+
+.hotspot-icon .bounce .bounce-icon {
+  color: var(--technovation-green) !important;
+}
+
+div[id*="tippy"] * {
+  -color: #fff !important;
+}
+
+#navbar-buttons .dropdown-menu a:hover,
+.typeahead-menu .active>a,
+.typeahead-menu .active>a:hover {
+  color: #fff !important;
+}
+
+.hotspot.overlay .hotspot-title {
+  line-height: 1.6 !important;
+}
+
+li.active-filter a,
+li.active-sub-filter a,
+.stream-row .sub-info-box .top-bar .stream-name {
+  font-weight: 400 !important;
+}
+
+li.active-filter > .bottom_left_row > .selectable_sidebar_block > a,
+li.active-sub-filter > .topic-box > a {
+  font-size: 16px !important;
+}
+
+.rendered_markdown .message_inline_image,
+.rendered_markdown .twitter-image {
+  background: none !important;
+}
